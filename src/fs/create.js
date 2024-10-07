@@ -4,7 +4,6 @@ const dir = require('path');
 const create = async () => {
     fs.mkdir(path.join(__dirname, "files"));
 
-
     fs.writeFile(
         path.join(__dirname, "files", 'fresh.txt'),
         "I am fresh and young",
